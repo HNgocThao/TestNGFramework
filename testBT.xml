@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNGFramework" verbose="1">
+<!--    <parameter name="appURL" value="https://rise.fairsketch.com"></parameter>-->
+    <test name="baiTapCodeGym">
+        <classes>
+            <class name="baiTapCodeGym.testcases.ClientTest">
+            </class>
+        </classes>
+    </test>
+</suite>
